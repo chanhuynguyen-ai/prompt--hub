@@ -1,0 +1,12 @@
+-đọc toàn bộ file .md mà tôi gửi để hiểu toàn bộ project của tôi
+-đọc toàn bộ source git-hub để xem toàn bộ source code dự án của tôi:
++elev-web_main: code web của toàn bộ dự án, dùng để build dist chuyển sang jetson
++ELEVATOR_AI_AGENT: code toàn bộ của dự án gồm backend và llm
++ELEV-CV-YOLOV8N: code toàn bộ phần cv trong dự án
+-phần cv theo tôi đã hoàn thiện 100% rồi (muốn tối ưu để chạy toàn bộ project mượt hơn)
+-phần frondend hiện tại đã thoàn thiện 100% đang trong giai đoạn khắc phục lỗi để chuyển sang chay jetson nano
+-phần llm đang tìm hiểu phương pháp để chạy mượt khi chạy cùng với toàn bộ dự án (hãy cho tôi biết phần llm hiện tại đã đạt bao nhiêu %), đưa ra phương pháp tối ưu llm tiêu chí chạy tổng thể mượt, thông minh, trả lời đạt yêu cầu, và liên kết với dữ liệu cv nhận diện ở database cv (elevator_cv) để trả lời hoặc là phương án tương tự để sử dụng chatbot có thể trả lời câu hỏi bằng cách trích xuất dữ liệu cv nhận dạng để trả lời câu hỏi. phần trợ lý ảo thì trả lời các câu hỏi liên quan đến thang máy các A&Q, các câu hỏi mà người dùng có thể hỏi trong thang máy. (nếu phương án sử dụng mô hình ngôn ngữ local hiện tại không đủ nhu cầu mục đích sử dụng của tôi thì đưa ra phương án tối ưu để chatbot có thể trả lời câu hỏi người dùng thông minh hơn bằng cách kết nối với sever máy tính để trả lời câu hỏi cũng được, mô hình llm sẽ ở máy tính, chatbot gọi giao thức từ jetson nano giao tiếp với máy tính win11 để trả lời câu hỏi mượt hơn). nếu phương pháp llm hiện tại có phương pháp tối ưu và chạy mượt đáp ứng đầy đủ yêu cầu của tôi thì giữ nguyên nó và cải tiến.
++toàn bộ project đang trong quá trình tối ưu để project chạy mượt trên jetson nano, bài toán kết hợp giữa database, llm, cv, backend, frondend chạy mượt với jetson nano mà không bị lỗi, giật lag, nhưng bảo đảm được hiêu năng và tính năng.
++thời gian để tối ưu toàn bộ để hoàn thiện nộp là 2 ngày nữa
+bây giờ chỉ còn phần llm và tối ưu tổng thể để tránh trường hợp chạy tổng thể project bị giật, lag, tràn ram.
+hãy đóng vai là 1 giáo sư llm, cv, database, web để hướng dẫn chi tiết cho tôi giải pháp tối ưu cho project, hướng dẫn để hoàn thiện llm trong project, vạch ra timeline hoàn thiện toàn bộ project, % hoàn thiện của từng phần: cv,llm, database, tổng thể. tập trung vào llm, và toàn bộ project để hoàn thiện đầy đủ project với mục tiêu là chuẩn đồ án thực tập tốt nghiệp, bám sát chuẩn sản phẩm thương mại, chạy project mượt.
